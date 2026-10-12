@@ -168,4 +168,21 @@ button:active{
     button{
         margin-top: 8px;
     }
+
+    #subscribeMessage{
+        margin-top: 16px;
+        color: #555763;
+    }
+    #subscribeMessage.is-success{
+        color: #245c3a;
+        background-color: #e7f7ed;
+        padding: 12px;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+    #subscribebutton:disabled{
+        color: #ffffff;
+        background-color: #a8a8b2;
+        cursor: not-allowed;
+    }
 }
